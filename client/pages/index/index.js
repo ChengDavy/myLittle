@@ -9,10 +9,13 @@ Page({
         logged: false,
         takeSession: false,
         requestResult: ''
+
     },
 
     // 用户登录示例
+
     login: function() {
+      
         if (this.data.logged) return
         // 弹窗显示
         util.showBusy('正在登录')
